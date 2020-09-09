@@ -73,6 +73,12 @@ Note: In CMake, `..` is the path to the source directory.
 
 We also provide the package `cuda-memtest` in the [Spack package manager](https://spack.io) .
 
+## Build with Docker
+
+```
+docker build -t cuda_memtest .
+```
+
 ### Run
 
 ```
